@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@300;500;600;700&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700;900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+.clr {
+  clear: both;
+}
+/* ====================================
+         Common CSS FINISHED
+======================================*/
+.header {
+  height: 32px;
+  background: #0872b9;
+}
+.header__content {
+  height: 32px;
+}
+.header__text {
+  width: 50%;
+  height: 32px;
+}
+.header__text p {
+  color: white;
+  line-height: 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.header__icone {
+  height: inherit;
+  width: 50%;
+
+  display: flex;
+  justify-content: end;
+}
+.header__icone a {
+  line-height: 32px;
+  margin-left: 10px;
+}
+.flexx {
+  display: flex;
+}
