@@ -26,15 +26,11 @@ img {
          Common CSS FINISHED
 ======================================*/
 .header {
-  height: 32px;
   background: #0872b9;
 }
-.header__content {
-  height: 32px;
-}
+
 .header__text {
   width: 50%;
-  height: 32px;
 }
 .header__text p {
   color: white;
@@ -44,16 +40,56 @@ img {
   font-size: 14px;
 }
 .header__icone {
-  height: inherit;
   width: 50%;
-
   display: flex;
   justify-content: end;
 }
 .header__icone a {
   line-height: 32px;
   margin-left: 10px;
+  margin-left: 25px;
+  font-size: 14px;
+  color: white;
+  transition: all linear 0.3s;
 }
 .flexx {
   display: flex;
+}
+.header__icone a:hover {
+  color: #353535;
+}
+#menu {
+  height: 80px;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+}
+.logo {
+  width: 30%;
+  margin: 20px 0;
+}
+.list {
+  display: flex;
+  width: 70%;
+  justify-content: end;
+}
+.list ul {
+  display: flex;
+
+  justify-content: end;
+}
+.list ul a {
+  margin-left: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: #353535;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 80px;
+  transition: all linear 0.3s;
+}
+.list ul a:hover {
+  color: #0872b9;
 }
