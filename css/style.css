@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@300;500;600;700&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700;900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@300;500;600;700&family=Oswald:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700;900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,900&display=swap");
+
+@font-face {
+  src: url(../myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF);
+  font-family: myriad pro;
+}
 * {
   margin: 0;
   padding: 0;
@@ -160,4 +165,89 @@ img {
 .banner__text a:hover {
   background: #0872b9;
   border-color: #0872b9;
+}
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about__info {
+  display: flex;
+  text-align: end;
+}
+
+.about__text p {
+  margin-left: 21px;
+  margin-top: 44px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  color: #555;
+  line-height: 24px;
+}
+.about__text p span {
+  display: block;
+  margin-top: 20px;
+}
+.about__img {
+  width: 380px;
+}
+.about__info img {
+  width: 100%;
+  max-width: 100%;
+}
+.about__text {
+  width: 539px;
+}
+.common__head {
+  position: relative;
+  display: inline-block;
+}
+
+.common__head img {
+  position: absolute;
+  right: 35px;
+}
+.common__head h2 {
+  color: #353535;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.about__header {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+.about__header img {
+  position: absolute;
+
+  left: 0;
+}
+.about__options {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.option__one {
+  background: #f1f1f1;
+  width: 300px;
+  margin-left: 20px;
+  padding: 110px 20px 20px;
+  margin-top: 70px;
+}
+.shape {
+  background: #f1f1f1;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 5px solid #4285f4;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
