@@ -241,11 +241,12 @@ img {
 .shape {
   width: 69px;
   height: 69px;
-  background: red;
+  background: #f1f1f1;
   border-radius: 50%;
   line-height: 69px;
-  border: 1px solid #15ffbd;
-  position: relative;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 50%;
 }
 .shape::after {
   position: absolute;
@@ -255,7 +256,7 @@ img {
   width: 69px;
   height: 69px;
   border-radius: 50%;
-  border: 1px solid purple;
+  border: 1px solid #f1f1f1;
 }
 .shape::before {
   position: absolute;
@@ -265,5 +266,5 @@ img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: 3px solid rgb(17, 206, 203);
+  border: 3px solid #fff;
 }
